@@ -1,0 +1,57 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+.img_m {
+    display: grid;
+    height: 100%;
+    max-height:100vh;
+    max-width: 100%;
+
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+

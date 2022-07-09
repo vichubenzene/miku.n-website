@@ -6,13 +6,9 @@
                     box-sizing: border-box;
                 }
                 
-                body {
-                    font-family: montserrat;
-                }
-                
                 nav {
                     background: #180f2f;
-                    height: 80px;
+                    height: 70px;
                     width: 100%;
                 }
                 
@@ -38,7 +34,7 @@
                 nav ul li a {
                     color: white;
                     font-size: 17px;
-                    padding: 7px 13px;
+                    padding: 7px 7px;
                     border-radius: 3px;
                     text-transform: uppercase;
                 }
@@ -63,6 +59,11 @@
                     display: none;
                 }
                 
+                .pagetop {
+                    display: grid;
+                    grid-template-columns: 1fr 2fr;
+                }
+                
                 @media (max-width: 1000px) {
                     label.logo {
                         z-index: 2;
@@ -75,6 +76,9 @@
                 }
                 
                 @media (max-width: 1000px) {
+                    .pagetop {
+                        display: inline;
+                    }
                     .checkbtn {
                         display: block;
                     }
@@ -109,11 +113,11 @@
                 
                 .img_m {
                     display: block;
-                    height: 100%;
-                    max-height: 100vh;
-                    max-width: 100%;
-                    -webkit-animation: mover 2s infinite alternate;
-                    animation: mover 2s infinite alternate;
+                    height: 90%;
+                    max-height: 90vh;
+                    max-width: 90%;
+                    -webkit-animation: mover 1.5s infinite alternate;
+                    animation: mover 1.5s infinite alternate;
                 }
                 
                 @-webkit-keyframes mover {
@@ -142,7 +146,8 @@
                     height: 36px;
                     padding-left: 15px;
                     padding-right: 15px;
-                    font-size: 18px;
+                    font-weight: bold;
+                    font-size: 15px;
                     border-radius: 6px;
                     cursor: pointer;
                     transition: opacity 0.4s;
@@ -153,26 +158,27 @@
                     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.35)
                 }
                 
-                .join-button {
+                .api-button {
                     background-color: rgb(248, 248, 248);
                     color: rgb(42, 15, 224);
                     border: rgb(47, 16, 246);
                     height: 36px;
                     width: 82px;
-                    border-radius: 1px;
+                    border-radius: 8px;
                     border-style: solid;
                     border-width: 1px;
                     margin-left: 6px;
                     cursor: pointer;
+                    margin-bottom: 8px;
                     transition: background-color 0.5s, color 0.5s;
                 }
                 
-                .join-button:hover {
+                .api-button:hover {
                     background-color: blue;
                     color: azure;
                 }
                 
-                .join-button:active {
+                .api-button:active {
                     opacity: 0.3;
                 }
                 
@@ -194,4 +200,83 @@
                 
                 .server-button:hover {
                     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.35)
+                }
+                /* Fixed sidenav, fradiull height */
+                
+                .sidenav {
+                    height: 100%;
+                    width: 200px;
+                    position: relative;
+                    display: inline-block;
+                    z-index: 1;
+                    top: 0;
+                    left: 0;
+                    background-color: #111;
+                    overflow-x: hidden;
+                    padding-top: 20px;
+                }
+                /* Style the sidenav links and the dropdown button */
+                
+                .sidenav input,
+                .dropdown-btn {
+                    padding: 6px 8px 6px 16px;
+                    text-decoration: none;
+                    font-size: 20px;
+                    color: #818181;
+                    display: block;
+                    border-color: black;
+                    border-width: 1px;
+                    border-radius: 10px;
+                    background: none;
+                    width: 100%;
+                    text-align: left;
+                    cursor: pointer;
+                    outline: none;
+                }
+                /* On mouse-over */
+                
+                .sidenav input:hover,
+                .dropdown-btn:hover {
+                    color: #f1f1f1;
+                }
+                /* Main content */
+                
+                .main {
+                    margin-left: 200px;
+                    /* Same as the width of the sidenav */
+                }
+                /* Add an active class to the active dropdown button */
+                
+                .active {
+                    background-color: rgb(32, 6, 41);
+                    color: white;
+                }
+                /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+                
+                .dropdown-container {
+                    display: none;
+                    background-color: #262626;
+                    padding-left: 8px;
+                }
+                /* Optional: Style the caret down icon */
+                
+                .fa-caret-down {
+                    float: right;
+                    padding-right: 8px;
+                }
+                /* Some media queries for responsiveness */
+                
+                @media screen and (max-height: 450px) {
+                    .sidenav {
+                        padding-top: 15px;
+                    }
+                    .sidenav a {
+                        font-size: 18px;
+                    }
+                }
+                
+                .img-container {
+                    display: none;
+                    background-color: #262626;
+                    padding-left: 8px;
                 }

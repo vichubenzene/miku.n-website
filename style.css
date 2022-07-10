@@ -174,8 +174,8 @@
                 }
                 
                 .api-button:hover {
+                    color: rgb(240, 255, 255);
                     background-color: blue;
-                    color: azure;
                 }
                 
                 .api-button:active {
@@ -240,11 +240,6 @@
                     color: #f1f1f1;
                 }
                 /* Main content */
-                
-                .main {
-                    margin-left: 200px;
-                    /* Same as the width of the sidenav */
-                }
                 /* Add an active class to the active dropdown button */
                 
                 .active {

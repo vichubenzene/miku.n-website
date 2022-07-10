@@ -286,10 +286,3 @@
                                 width: 300px;
                             }
                         }
-                        
-                        @media screen and (max-width: 310px) {
-                            .changeimg {
-                                margin-top: 25px;
-                                width: 130px;
-                            }
-                        }

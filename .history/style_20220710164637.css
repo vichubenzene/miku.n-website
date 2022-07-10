@@ -287,9 +287,9 @@
                             }
                         }
                         
-                        @media screen and (max-width: 310px) {
+                        @media screen and (max-width: 300px) {
                             .changeimg {
                                 margin-top: 25px;
-                                width: 130px;
+                                width: 210px;
                             }
                         }

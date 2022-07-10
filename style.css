@@ -31,7 +31,7 @@
                             margin: 0 5px;
                         }
                         
-                        nav ul li a {
+                        .nava {
                             color: white;
                             font-size: 17px;
                             padding: 7px 7px;
@@ -39,8 +39,8 @@
                             text-transform: uppercase;
                         }
                         
-                        a.active,
-                        a:hover {
+                        .nava.active,
+                        .nava:hover {
                             background: #1d075f;
                             transition: .5s;
                         }
@@ -70,7 +70,7 @@
                                 font-size: 30px;
                                 padding-left: 10px;
                             }
-                            nav ul li a {
+                            .nava {
                                 font-size: 16px;
                             }
                         }
@@ -98,11 +98,11 @@
                                 margin: 50px 0;
                                 line-height: 30px;
                             }
-                            nav ul li a {
+                            .nava {
                                 font-size: 20px;
                             }
-                            a:hover,
-                            a.active {
+                            .nava:hover,
+                            .nava.active {
                                 background: white;
                                 color: #180f2f;
                             }
@@ -245,6 +245,20 @@
                         .active {
                             background-color: rgb(32, 6, 41);
                             color: white;
+                        }
+                        
+                        .active {
+                            color: white;
+                            font-size: 17px;
+                            padding: 7px 7px;
+                            border-radius: 3px;
+                            text-transform: uppercase;
+                        }
+                        
+                        .active.active,
+                        .active:hover {
+                            background: #1d075f;
+                            transition: .5s;
                         }
                         /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
                         

@@ -268,8 +268,9 @@
                             padding-left: 8px;
                         }
                         .dropdown-container:active {
-                            color: #1d075f;
-                            transition: .5s;
+                            display: none;
+                            background-color: black ;
+                            padding-left: 8px;
                         }
                         /* Optional: Style the caret down icon */
                         

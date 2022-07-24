@@ -239,6 +239,9 @@
                         .dropdown-btn:hover {
                             color: #f1f1f1;
                         }
+                        .dropdown-btn:active {
+                            color: #1d075f;
+                        }
                         /* Main content */
                         /* Add an active class to the active dropdown button */
                         
@@ -265,11 +268,6 @@
                         .dropdown-container {
                             display: none;
                             background-color: #262626;
-                            padding-left: 8px;
-                        }
-                        .dropdown-container:active {
-                            display: none;
-                            background-color: black ;
                             padding-left: 8px;
                         }
                         /* Optional: Style the caret down icon */

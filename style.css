@@ -267,6 +267,11 @@
                             background-color: #262626;
                             padding-left: 8px;
                         }
+                        .dropdown-container:active {
+                            display: none;
+                            background-color: black;
+                            padding-left: 8px;
+                        }
                         /* Optional: Style the caret down icon */
                         
                         .fa-caret-down {

@@ -6,5 +6,11 @@ Promotes the Free Api supported by the bot,
 More info about api -> [Api-Miku-says](https://github.com/vichubenzene/Api-Miku-says)
 
 ```console
-Just used Basic HTML CSS AND  25 lines of JS... as the bot grows the webpage will be updated.
+
+As the bot grows the webpage will be updated, By adding Ad System
+which recreate's the Voting system of Top.gg Website ;)
+
+➽ Making it as an Passive Income for future devlopments 🧑‍💻
+
+#contributions are welcomed with Love 💝, Join Support server for more info
 ```

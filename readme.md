@@ -1,9 +1,25 @@
-Website for Miku.N discord Bot -> live: https://dicordbot-miku-n.netlify.app/
+Website for Miku.N discord Bot 
 
 This Contains the  [Terms of service](https://dicordbot-miku-n.netlify.app/tos.html), [message policy](https://dicordbot-miku-n.netlify.app/message.html), [Privacy policy](https://dicordbot-miku-n.netlify.app/privacy.html) of the bot as it got presence intent, server member intent and message content intents
 
-Promotes the Free Api supported by the bot,
+Promotes a Free Api supported by the bot,
 More info about api -> [Api-Miku-says](https://github.com/vichubenzene/Api-Miku-says)
+
+> live: https://dicordbot-miku-n.netlify.app/
+<br>
+<h3>Preview</h3>
+
+>#Main<br><br>
+> <img src= https://imgur.com/jCeBICX.jpg height="70%" width="70%">
+<br>
+
+>#Demonstration<br><br>
+> <img src= https://imgur.com/tntGTlE.jpg height="70%" width="70%">
+<br>
+
+>#Open source API<br><br>
+> <img src= https://imgur.com/fw0OpeM.jpg height="70%" width="70%">
+
 
 ```console
 

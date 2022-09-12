@@ -9,16 +9,16 @@ More info about api -> [Api-Miku-says](https://github.com/vichubenzene/Api-Miku-
 <br>
 <h3>Preview</h3>
 
->#Main<br><br>
+> # Main
 > <img src= https://imgur.com/jCeBICX.jpg height="70%" width="70%">
 <br>
 
->#Demonstration<br><br>
+> # Demonstration
 > <img src= https://imgur.com/tntGTlE.jpg height="70%" width="70%">
 <br>
 
->#Open source API<br><br>
-> <img src= https://imgur.com/fw0OpeM.jpg height="70%" width="70%">
+> # Open source API
+> <img src= https://imgur.com/SF2LW2W.jpg height="70%" width="70%">
 
 
 ```console

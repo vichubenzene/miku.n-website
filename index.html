@@ -19,8 +19,10 @@
     <meta property="og:locale:alternate" content="en-us" />
 
 
-	
+
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="json/quotes.json"></script>
+    <script type="text/javascript" src="json/topic.json"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -205,7 +207,26 @@
                 imagetxt.textContent = `${imgtxt}`;
 
             }
+            async function userquotes() {
+                var quotesrc = document.getElementById('quoteapi');
+                var authorsrc = document.getElementById('quoteapiquthor');
+                let x = Math.floor((Math.random() * 200) + 2);
+                fetch("json/quotes.json")
+                    .then(response => response.json())
+                    .then(json => authorsrc.textContent = `${(json[x])["author"]}`);
+                fetch("json/quotes.json")
+                    .then(response => response.json())
+                    .then(json => quotesrc.textContent = `${(json[x])["quote"]}`);
+            }
+            async function usertopic() {
+                var quotesrc = document.getElementById('topicapi');
+                let x = Math.floor((Math.random() * 200) + 2);
+                fetch("json/topic.json")
+                    .then(response => response.json())
+                    .then(json => quotesrc.textContent = `${(json[x])}`)
+            }
         </script>
+
         <div style="background-image:url(img/backgrounud.jpg); max-height: 100%;background-position: center;
         background-repeat: no-repeat; opacity: 0.90;
         background-size: cover;">
@@ -213,16 +234,25 @@
                 <h2 style="color: rgb(27, 2, 46); font-weight: bold;  white-space: nowrap ; margin-bottom: 20px;">Open Source Api's
                 </h2>
                 <p style="line-height:20px;">
-                    <span style="font-weight: bold;">Miku.N currently has 2 open API's</span>
-                    <li>
-                        <a href="https://miku-says.benzene002.repl.co/quote" target="_blank"><button class="api-button" style="margin-top: 8px;">Quiz</button></a>
-                    </li>
-                    <li>
-                        <a href="https://miku-says.benzene002.repl.co/topic" target="_blank"><button class="api-button">Topic</button></a>
-                    </li>
+                    <span style="font-weight: bold; ">Miku.N currently has 2 open API's</span>
+
+                    <br>
+                    <p id="quoteapi" style="font-family: Italics; font-size: 17px; margin-top: 10px; margin-bottom: 5px;">Click Below to call Quotes Api</p>
+                    <p id="quoteapiquthor" style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 14px; margin-top: 6px; margin-bottom: 5px;"></p>
+                    <input type="button" onclick="userquotes()" value="Regerate Quotes" class="apis-button" />
+                    <br>
+                    <br>
+                    <p id="topicapi" style="font-family: Italics; font-size: 17px; margin-bottom: 5px;">Click Below to call Topics Api</p>
+                    <input type="button" onclick="usertopic()" value="Regerate Topics" class="apis-button" />
+
                 </p>
                 <div>
-                    <h2 style="margin-top: 3px; margin-bottom: 3px;">Mikusays Api endpoints:</h2>
+
+                    <h3 style="margin-top: 15px; margin-bottom: 3px;">Api Endpoints:</h3>
+
+                    <a href="https://miku-says.benzene002.repl.co/quote" target="_blank"><button class="api-button" style="margin-top: 8px;">Quotes</button></a>
+                    <a href="https://miku-says.benzene002.repl.co/topic" target="_blank"><button class="api-button">Topic</button></a>
+
                     <div style="line-height: 38px;">
                         <a href="https://miku-says.benzene002.repl.co/" target="_blank">
                             <li><span style="background-color: rgb(207, 90, 90); padding-left: 8px; padding-right: 8px; border-radius: 5px;;">Baseurl: https://miku-says.benzene002.repl.co/</span> </li>
@@ -246,6 +276,7 @@
                     <!-- <a href="mailto:hege@example.com">hege@example.com</a></p> -->
                 </div>
             </footer>
+
 </body>
 
 </html>

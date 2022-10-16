@@ -18,7 +18,7 @@ More info about api -> [Api-Miku-says](https://github.com/vichubenzene/Api-Miku-
 <br>
 
 > # Open source API
-> <img src= https://imgur.com/SF2LW2W.jpg height="70%" width="70%">
+> <img src= https://imgur.com/nOxojVE.jpg height="70%" width="70%">
 
 
 ```console

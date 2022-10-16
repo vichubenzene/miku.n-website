@@ -19,8 +19,11 @@ More info about api -> [Api-Miku-says](https://github.com/vichubenzene/Api-Miku-
 
 > # Open source API
 > <img src= https://imgur.com/nOxojVE.jpg height="70%" width="70%">
+<br>
 
 
+> # Policy Pages
+> <img src= https://imgur.com/mTTzOH7.jpg height="55%" width="55%"> <img src= https://imgur.com/2RKce3R.jpg height="55%" width="55%">
 ```console
 
 As the bot grows the webpage will be updated, By adding Ad System

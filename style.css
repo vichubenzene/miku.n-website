@@ -241,7 +241,7 @@
                         /* Style the sidenav links and the dropdown button */
                         
                         .sidenav input,
-                        .dropdown-btn {
+                        .dropdown-btn,.dropdown-btn2 {
                             padding: 6px 8px 6px 16px;
                             text-decoration: none;
                             font-size: 20px;
@@ -259,7 +259,7 @@
                         /* On mouse-over */
                         
                         .sidenav input:hover,
-                        .dropdown-btn:hover {
+                        .dropdown-btn:hover.dropdown-btn:hover {
                             color: #f1f1f1;
                         }
                         /* Main content */
@@ -285,13 +285,13 @@
                         }
                         /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
                         
-                        .dropdown-container {
+                        .dropdown-container, .dropdown-container2 {
                             display: none;
                             background-color: #262626;
                             padding-left: 8px;
                         }
                         
-                        .dropdown-container:active {
+                        .dropdown-container:active, .dropdown-container2:active {
                             display: none;
                             background-color: black;
                             padding-left: 8px;
@@ -319,19 +319,19 @@
                             padding-left: 8px;
                         }
                         
-                        .changeimg {
+                        .changeimg, .changeimg2 {
                             margin-top: 25px;
                         }
                         
                         @media screen and (max-width: 760px) {
-                            .changeimg {
+                            .changeimg, .changeimg2 {
                                 margin-top: 25px;
                                 width: 300px;
                             }
                         }
                         
                         @media screen and (max-width: 310px) {
-                            .changeimg {
+                            .changeimg, .changeimg2 {
                                 margin-top: 25px;
                                 width: 130px;
                             }

@@ -65,7 +65,7 @@
                         The Best Anime Bot for your server.
                         <br />
                         <a href="https://top.gg/bot/876139135507763280/vote" target="_blank"><span style="font-weight: bold; color: rgb(12, 189, 249);">Top.gg Vote »</span></a>
-                        </span><br />
+                        </span>
                     </p>
                     <p style=" color: whitesmoke; font-size: 18px; margin-top: 10px; margin-bottom: 8px; ">
                         Enjoy Your Discord With Miku.N discord bot
@@ -76,9 +76,15 @@
                     Support Server
                     </button></a>
                     </p>
+                    <br>
                     <p style="color: white; margin-right: 15px; margin-left:15px ; ">
 
-                        Anime &#8226; Manga &#8226; Quiz &#8226; Quotes &#8226; Wallpaper &#8226; Anime Search Engine &#8226; Translator &#8226; Anime Image's
+                        Anime &#8226; Manga &#8226; Quotes &#8226; Wallpaper &#8226; Anime Search Engine &#8226; Translator &#8226; Anime Image's
+                    </p>
+                    <br><br>
+                    <p style="color: white; margin-right: 15px; margin-left:15px ; ">
+
+                        Games: Anime Cards &#8226; Typing Race &#8226; Global Quiz &#8226; Everyday Gym &#8226;
                     </p>
                     <h3 style="color: white; margin-top:30px"><span style="font-family: Arial;">Owner: Benzene#6171 <sub>&#40;Viswanathan S&#41;</sub></span></h3>
                     <p align="center" style="margin-top: 2px; margin-bottom: 2px;">
@@ -89,7 +95,7 @@
         </div>
     </div>
     <div style="background-color: black;">
-        <h2 style="color: azure;  white-space: nowrap;" align="center">Commands Demonstration
+        <h2 style="color: azure;  white-space: nowrap; padding-top: 20px;" align="center">Commands Demonstration
         </h2>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <div class="pagetop">
@@ -127,15 +133,7 @@
                     <input type="button" onclick="changeImage('quotes/inspire.png', 'displays a quote with author')" value="inspire" />
 
                 </div>
-                <button class="dropdown-btn">Quiz 
-            <i class="fa fa-caret-down"></i>
-          </button>
-                <div class="dropdown-container">
-                    <input type="button" onclick="changeImage('quiz/quiz.png', 'quiz from a random anime')" value="quiz" />
-                    <input type="button" onclick="changeImage('quiz/quotesquiz.png', 'quiz from a specific anime')" value="quotesquiz" />
-                    <input type="button" onclick="changeImage('quiz/points.png', 'displays the user points')" value="points" />
-                    <input type="button" onclick="changeImage('quiz/lb.png', 'displays the leader board')" value="leaderboard" />
-                </div>
+                
                 <button class="dropdown-btn">Wallpaper
                 <i class="fa fa-caret-down"></i>
               </button>
@@ -183,7 +181,53 @@
                 <p id="myImagetxt" style="color: white; text-align: justify; margin-top: 15px; margin-bottom: 18px; margin-right: 15px;font-family: Arial; font-weight: bolder; font-size: 25px;"> Help window <br> Choose various commands</p>
             </div>
         </div>
-        <script>
+
+<div style="background-color: #1c1435;">
+    <h2 style="color: azure;  white-space: nowrap; margin-top:100px; padding-top: 20px;" align="center" >Miku.N Exclusive Games
+    </h2>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="pagetop">
+        <div class="sidenav">
+            <button class="dropdown-btn2">Profile
+            <i class="fa fa-caret-down"></i>
+          </button>
+            <div class="dropdown-container">
+                <input type="button" onclick="changeImage2('game/profile/profile.png', 'Player Information')" value="Profile" />
+            </div>
+            <button class="dropdown-btn2">Cards  
+            <i class="fa fa-caret-down"></i>
+          </button>
+            <div class="dropdown-container">
+                <input type="button" onclick="changeImage2('game/cards/drop.jpg', 'card drops, users can collect it')" value="Drop" />
+                <input type="button" onclick="changeImage2('game/cards/morph.jpg', 'Frame can be morphed with Chemicals from gym')" value="Morph" />
+                <input type="button" onclick="changeImage2('game/cards/linemorph.jpg', 'outerline can be morphed with Chemicals from gym')" value="Line Morph" />
+                <input type="button" onclick="changeImage2('game/cards/namecard.jpg', 'Nick Name for Premium users')" value="Nick Name" />
+            </div>
+            <button class="dropdown-btn2"> Typing
+            <i class="fa fa-caret-down"></i>
+          </button>
+            <div class="dropdown-container">
+                <input type="button" onclick="changeImage2('game/typing/typerace.png', 'Typing Race with friends')" value="Race" />
+                <input type="button" onclick="changeImage2('game/typing/lb.png', 'Typing Race leaderboard')" value="Leaderboard" />
+
+            </div>
+            <button class="dropdown-btn2">Quiz
+            <i class="fa fa-caret-down"></i>
+          </button>
+            <div class="dropdown-container">
+                <input type="button" onclick="changeImage2('game/quizgame/combined.png', 'Quiz with Different Category ')" value="Quiz" />
+                <input type="button" onclick="changeImage2('game/quizgame/quizlb.png', 'Quiz Leaderboard')" value="Leaderboard" />
+
+            </div>
+            <button class="dropdown-btn2">Gym
+            <i class="fa fa-caret-down"></i>
+          </button>
+            <div class="dropdown-container">
+                <input type="button" onclick="changeImage2('game/gyming/gympass.png', 'Purchase a Gym Pass')" value="Gym Pass" />
+                <input type="button" onclick="changeImage2('game/gyming/gym.png', 'Gym')" value="Everyday" />
+            </div>
+        </div>
+                <script>
             /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
             var dropdown = document.getElementsByClassName("dropdown-btn");
             var i;
@@ -200,6 +244,27 @@
                 });
             }
 
+            var dropdown = document.getElementsByClassName("dropdown-btn2");
+            var i;
+
+            for (i = 0; i < dropdown.length; i++) {
+                dropdown[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var dropdownContent = this.nextElementSibling;
+                    if (dropdownContent.style.display === "block") {
+                        dropdownContent.style.display = "none";
+                    } else {
+                        dropdownContent.style.display = "block";
+                    }
+                });
+            }
+            function changeImage2(hash, imgtxt) {
+            var image = document.getElementById('myImage2');
+            image.src = `commands/${hash}`;
+            var imagetxt = document.getElementById('myImagetxt2');
+            imagetxt.textContent = `${imgtxt}`;
+
+        }
             function changeImage(hash, imgtxt) {
                 var image = document.getElementById('myImage');
                 image.src = `commands/${hash}`;
@@ -226,7 +291,11 @@
                     .then(json => quotesrc.textContent = `${(json[x])}`)
             }
         </script>
-
+        <div class="main" style="margin-top: 40px;">
+            <img src="commands/help.png" id="myImage2" class="changeimg">
+            <p id="myImagetxt2" style="color: white; text-align: justify; margin-top: 15px; margin-bottom: 18px; margin-right: 15px;font-family: Arial; font-weight: bolder; font-size: 25px;"> Help window <br> Choose various commands</p>
+        </div>
+    </div>
         <div style="background-image:url(img/backgrounud.jpg); max-height: 100%;background-position: center;
         background-repeat: no-repeat; opacity: 0.90;
         background-size: cover;">

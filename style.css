@@ -319,19 +319,21 @@
                             padding-left: 8px;
                         }
                         
-                        .changeimg, .changeimg2 {
+                        .changeimg {
                             margin-top: 25px;
+                            max-width: 400px;
+                            max-height: 600px;
                         }
                         
                         @media screen and (max-width: 760px) {
-                            .changeimg, .changeimg2 {
+                            .changeimg {
                                 margin-top: 25px;
                                 width: 300px;
                             }
                         }
                         
                         @media screen and (max-width: 310px) {
-                            .changeimg, .changeimg2 {
+                            .changeimg{
                                 margin-top: 25px;
                                 width: 130px;
                             }

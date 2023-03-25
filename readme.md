@@ -10,7 +10,7 @@ More info about api -> [Api-Miku-says](https://github.com/vichubenzene/Api-Miku-
 <h3>Preview</h3>
 
 > # Main
-> <img src= https://imgur.com/jCeBICX.jpg height="70%" width="70%">
+> <img src= https://imgur.com/dHKE4ME.jpg height="70%" width="70%">
 <br>
 
 > # Demonstration

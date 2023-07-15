@@ -64,7 +64,7 @@
                             grid-template-columns: 1fr 2fr;
                         }
                         
-                        @media (max-width: 1000px) {
+                        @media (max-width: 1070px) {
                             label.logo {
                                 z-index: 2;
                                 font-size: 30px;
@@ -75,7 +75,7 @@
                             }
                         }
                         
-                        @media (max-width: 1000px) {
+                        @media (max-width: 1070px) {
                             .pagetop {
                                 display: inline;
                             }

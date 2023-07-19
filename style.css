@@ -345,3 +345,19 @@
                             width: 300px;
                             z-index: 9999;
                           }
+                        @-webkit-keyframes Font {
+                            0% {color: crimson;}
+                            10% {color: red;}
+                            20% {color: orange;}
+                            30% {color: yellow;}
+                            40% {color: goldenrod;}
+                            50% {color: limegreen;}
+                            60% {color: green;}
+                            70% {color: burlywood}
+                            80% {color: pink}
+                            90% {color: indigo;}
+                            100% {color: royalblue}
+                        }
+                        .v1text{
+                            -webkit-animation:Font 2s infinite alternate;
+                        }
